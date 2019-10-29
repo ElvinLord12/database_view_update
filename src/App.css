@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.appContainer{
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.tableContainer{
+  width: 50%;
+  border-color: black;
+  border-width: 2px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.more{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.inserts{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.createTables{
+  margin: 25px;
+  padding: 25px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.viewCommands{
+  margin: 25px;
+  padding: 25px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.reminder{
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: red;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.header{
+  margin: 10px;
+}
+
+.headerContainer{
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.updateButton{
+  background-color: #1be4a1;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.updateButton:hover{
+  background-color: #1BC3E4;
+}
